@@ -1,13 +1,8 @@
 pyScss, a Scss compiler for Python
 ==================================
 
-|build-status| |coverage|
+This fork was done, since the original https://github.com/Kronuz/pyScss did not do a PyPI release compatible with Python 3.11+.
 
-.. |build-status| image:: https://travis-ci.org/Kronuz/pyScss.svg?branch=master
-    :target: https://travis-ci.org/Kronuz/pyScss
-
-.. |coverage| image:: https://coveralls.io/repos/Kronuz/pyScss/badge.png
-    :target: https://coveralls.io/r/Kronuz/pyScss
 
 pyScss is a compiler for the `Sass`_ language, a superset of CSS3 that adds
 programming capabilities and some other syntactic sugar.
@@ -17,11 +12,11 @@ programming capabilities and some other syntactic sugar.
 Quickstart
 ----------
 
-You need Python 2.6+ or 3.3+.  PyPy is also supported.
+You need Python 3.11+.  PyPy is also supported.
 
 Installation::
 
-    pip install pyScss
+    pip install cpfr-pyScss
 
 Usage::
 

@@ -1,0 +1,20 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cpfr-pyScss"
+authors = [
+    { name = "Carsten Pfeffer", email = "pfeffer.carsten@gmail.com" }
+]
+description = "fork of pyScss - pyScss is a compiler for the Sass language, a superset of CSS3 that adds programming capabilities and some other syntactic sugar."
+version = "1.4.1"
+readme = "readme.rst"
+requires-python = ">= 3.11"
+keywords = [ "css", "oocss", "xcss", "sass", "scss", "less", "precompiler" ]
+dependencies = []
+
+[tool.setuptools]
+packages = ["pyScss"]
