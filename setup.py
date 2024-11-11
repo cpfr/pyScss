@@ -152,7 +152,7 @@ def try_building_extension():
         echo(LINE)
 
 
-if platform.python_implementation() == 'CPython':
-    try_building_extension()
-else:
-    run_setup(False)
+# if platform.python_implementation() == 'CPython':
+#     try_building_extension()
+# else:
+run_setup(False)
